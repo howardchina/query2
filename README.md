@@ -1,3 +1,4 @@
 # query-location
-code base for paper "query^2"
-code will be released soon.
+## Code base for paper "query^2".
+
+Code will be released soon.
