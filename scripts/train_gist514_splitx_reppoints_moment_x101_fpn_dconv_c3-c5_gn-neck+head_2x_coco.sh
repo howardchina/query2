@@ -1,0 +1,5 @@
+ CUDA_VISIBLE_DEVICES=0 python ./tools/train.py configs/ultra_sound/reppoints/X-101-FPN-DCN/gist514_split0_reppoints_moment_x101_fpn_dconv_c3-c5_gn-neck+head_2x_coco.py --seed 666  &
+ CUDA_VISIBLE_DEVICES=1 python ./tools/train.py configs/ultra_sound/reppoints/X-101-FPN-DCN/gist514_split1_reppoints_moment_x101_fpn_dconv_c3-c5_gn-neck+head_2x_coco.py --seed 666  &
+ CUDA_VISIBLE_DEVICES=2 python ./tools/train.py configs/ultra_sound/reppoints/X-101-FPN-DCN/gist514_split2_reppoints_moment_x101_fpn_dconv_c3-c5_gn-neck+head_2x_coco.py --seed 666  
+ CUDA_VISIBLE_DEVICES=2 python ./tools/train.py configs/ultra_sound/reppoints/X-101-FPN-DCN/gist514_split3_reppoints_moment_x101_fpn_dconv_c3-c5_gn-neck+head_2x_coco.py --seed 666  &
+ CUDA_VISIBLE_DEVICES=3 python ./tools/train.py configs/ultra_sound/reppoints/X-101-FPN-DCN/gist514_split4_reppoints_moment_x101_fpn_dconv_c3-c5_gn-neck+head_2x_coco.py --seed 666 

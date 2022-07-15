@@ -1,0 +1,1 @@
+_base_ = ['../mask_rcnn.py', ]

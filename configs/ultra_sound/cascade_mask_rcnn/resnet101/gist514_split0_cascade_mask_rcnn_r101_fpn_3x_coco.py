@@ -1,0 +1,1 @@
+_base_ = ['../cascade_mask_rcnn.py', ]

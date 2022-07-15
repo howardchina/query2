@@ -1,0 +1,9 @@
+python tools/test.py configs/ultra_sound/mask_rcnn/resnet101/gist514_split0_mask_rcnn_r101_fpn_3x_coco.py work_dirs/gist514_split0_mask_rcnn_r101_fpn_3x_coco/latest.pth --eval bbox vanilla --show-dir playground/usd/gist514_split0_mask_rcnn_r101_fpn_3x_coco/show_results/split0 2>&1 | tee work_dirs/gist514_split0_mask_rcnn_r101_fpn_3x_coco/test.log
+
+python tools/test.py configs/ultra_sound/mask_rcnn/resnet101/gist514_split1_mask_rcnn_r101_fpn_3x_coco.py work_dirs/gist514_split1_mask_rcnn_r101_fpn_3x_coco/latest.pth --eval bbox vanilla --show-dir playground/usd/gist514_split1_mask_rcnn_r101_fpn_3x_coco/show_results/split1 2>&1 | tee work_dirs/gist514_split1_mask_rcnn_r101_fpn_3x_coco/test.log
+
+python tools/test.py configs/ultra_sound/mask_rcnn/resnet101/gist514_split2_mask_rcnn_r101_fpn_3x_coco.py work_dirs/gist514_split2_mask_rcnn_r101_fpn_3x_coco/latest.pth --eval bbox vanilla --show-dir playground/usd/gist514_split2_mask_rcnn_r101_fpn_3x_coco/show_results/split2 2>&1 | tee work_dirs/gist514_split2_mask_rcnn_r101_fpn_3x_coco/test.log
+
+python tools/test.py configs/ultra_sound/mask_rcnn/resnet101/gist514_split3_mask_rcnn_r101_fpn_3x_coco.py work_dirs/gist514_split3_mask_rcnn_r101_fpn_3x_coco/latest.pth --eval bbox vanilla --show-dir playground/usd/gist514_split3_mask_rcnn_r101_fpn_3x_coco/show_results/split3 2>&1 | tee work_dirs/gist514_split3_mask_rcnn_r101_fpn_3x_coco/test.log
+
+python tools/test.py configs/ultra_sound/mask_rcnn/resnet101/gist514_split4_mask_rcnn_r101_fpn_3x_coco.py work_dirs/gist514_split4_mask_rcnn_r101_fpn_3x_coco/latest.pth --eval bbox vanilla --show-dir playground/usd/gist514_split4_mask_rcnn_r101_fpn_3x_coco/show_results/split4 2>&1 | tee work_dirs/gist514_split4_mask_rcnn_r101_fpn_3x_coco/test.log

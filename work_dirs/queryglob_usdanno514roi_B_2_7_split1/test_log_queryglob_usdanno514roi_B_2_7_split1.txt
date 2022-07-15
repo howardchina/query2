@@ -1,0 +1,63 @@
+loading annotations into memory...
+Done (t=0.02s)
+creating index...
+index created!
+load checkpoint from local path: work_dirs/queryglob_usdanno514roi_B_2_7_split1/epoch_36.pth
+[                                                  ] 0/103, elapsed: 0s, ETA:/mnt/home1/programs/miniconda3/envs/usd/lib/python3.8/site-packages/mmcv/utils/misc.py:333: UserWarning: "dropout" is deprecated in `FFN.__init__`, please use "ffn_drop" instead
+  warnings.warn(
+/mnt/home1/programs/miniconda3/envs/usd/lib/python3.8/site-packages/mmcv/cnn/bricks/conv_module.py:150: UserWarning: Unnecessary conv bias before batch/instance norm
+  warnings.warn(
+[                                 ] 1/103, 1.4 task/s, elapsed: 1s, ETA:    74s[                                 ] 2/103, 1.7 task/s, elapsed: 1s, ETA:    60s[                                 ] 3/103, 2.0 task/s, elapsed: 2s, ETA:    51s[>                                ] 4/103, 2.2 task/s, elapsed: 2s, ETA:    45s[>                                ] 5/103, 2.3 task/s, elapsed: 2s, ETA:    42s[>                                ] 6/103, 2.5 task/s, elapsed: 2s, ETA:    39s[>>                               ] 7/103, 2.5 task/s, elapsed: 3s, ETA:    38s[>>                               ] 8/103, 2.6 task/s, elapsed: 3s, ETA:    36s[>>                               ] 9/103, 2.7 task/s, elapsed: 3s, ETA:    35s[>>>                             ] 10/103, 2.7 task/s, elapsed: 4s, ETA:    34s[>>>                             ] 11/103, 2.8 task/s, elapsed: 4s, ETA:    33s[>>>                             ] 12/103, 2.8 task/s, elapsed: 4s, ETA:    32s[>>>>                            ] 13/103, 2.8 task/s, elapsed: 5s, ETA:    32s[>>>>                            ] 14/103, 2.8 task/s, elapsed: 5s, ETA:    31s[>>>>                            ] 15/103, 2.9 task/s, elapsed: 5s, ETA:    31s[>>>>                            ] 16/103, 2.9 task/s, elapsed: 6s, ETA:    30s[>>>>>                           ] 17/103, 2.9 task/s, elapsed: 6s, ETA:    30s[>>>>>                           ] 18/103, 2.9 task/s, elapsed: 6s, ETA:    29s[>>>>>                           ] 19/103, 2.9 task/s, elapsed: 7s, ETA:    29s[>>>>>>                          ] 20/103, 2.9 task/s, elapsed: 7s, ETA:    29s[>>>>>>                          ] 21/103, 2.9 task/s, elapsed: 7s, ETA:    28s[>>>>>>                          ] 22/103, 2.9 task/s, elapsed: 8s, ETA:    28s[>>>>>>>                         ] 23/103, 2.9 task/s, elapsed: 8s, ETA:    27s[>>>>>>>                         ] 24/103, 2.9 task/s, elapsed: 8s, ETA:    27s[>>>>>>>                         ] 25/103, 3.0 task/s, elapsed: 8s, ETA:    26s[>>>>>>>>                        ] 26/103, 3.0 task/s, elapsed: 9s, ETA:    26s[>>>>>>>>                        ] 27/103, 3.0 task/s, elapsed: 9s, ETA:    26s[>>>>>>>>                        ] 28/103, 3.0 task/s, elapsed: 9s, ETA:    25s[>>>>>>>>                       ] 29/103, 3.0 task/s, elapsed: 10s, ETA:    25s[>>>>>>>>>                      ] 30/103, 3.0 task/s, elapsed: 10s, ETA:    25s[>>>>>>>>>                      ] 31/103, 3.0 task/s, elapsed: 10s, ETA:    24s[>>>>>>>>>                      ] 32/103, 2.9 task/s, elapsed: 11s, ETA:    24s[>>>>>>>>>                      ] 33/103, 2.9 task/s, elapsed: 11s, ETA:    24s[>>>>>>>>>>                     ] 34/103, 2.9 task/s, elapsed: 12s, ETA:    24s[>>>>>>>>>>                     ] 35/103, 2.9 task/s, elapsed: 12s, ETA:    23s[>>>>>>>>>>                     ] 36/103, 2.9 task/s, elapsed: 12s, ETA:    23s[>>>>>>>>>>>                    ] 37/103, 3.0 task/s, elapsed: 13s, ETA:    22s[>>>>>>>>>>>                    ] 38/103, 3.0 task/s, elapsed: 13s, ETA:    22s[>>>>>>>>>>>                    ] 39/103, 3.0 task/s, elapsed: 13s, ETA:    22s[>>>>>>>>>>>>                   ] 40/103, 3.0 task/s, elapsed: 14s, ETA:    21s[>>>>>>>>>>>>                   ] 41/103, 3.0 task/s, elapsed: 14s, ETA:    21s[>>>>>>>>>>>>                   ] 42/103, 2.9 task/s, elapsed: 14s, ETA:    21s[>>>>>>>>>>>>                   ] 43/103, 3.0 task/s, elapsed: 15s, ETA:    20s[>>>>>>>>>>>>>                  ] 44/103, 3.0 task/s, elapsed: 15s, ETA:    20s[>>>>>>>>>>>>>                  ] 45/103, 3.0 task/s, elapsed: 15s, ETA:    20s[>>>>>>>>>>>>>                  ] 46/103, 3.0 task/s, elapsed: 15s, ETA:    19s[>>>>>>>>>>>>>>                 ] 47/103, 3.0 task/s, elapsed: 16s, ETA:    19s[>>>>>>>>>>>>>>                 ] 48/103, 3.0 task/s, elapsed: 16s, ETA:    18s[>>>>>>>>>>>>>>                 ] 49/103, 3.0 task/s, elapsed: 16s, ETA:    18s[>>>>>>>>>>>>>>>                ] 50/103, 3.0 task/s, elapsed: 17s, ETA:    18s[>>>>>>>>>>>>>>>                ] 51/103, 3.0 task/s, elapsed: 17s, ETA:    17s[>>>>>>>>>>>>>>>                ] 52/103, 3.0 task/s, elapsed: 17s, ETA:    17s[>>>>>>>>>>>>>>>                ] 53/103, 3.0 task/s, elapsed: 18s, ETA:    17s[>>>>>>>>>>>>>>>>               ] 54/103, 3.0 task/s, elapsed: 18s, ETA:    16s[>>>>>>>>>>>>>>>>               ] 55/103, 3.0 task/s, elapsed: 18s, ETA:    16s[>>>>>>>>>>>>>>>>               ] 56/103, 3.0 task/s, elapsed: 19s, ETA:    16s[>>>>>>>>>>>>>>>>>              ] 57/103, 3.0 task/s, elapsed: 19s, ETA:    15s[>>>>>>>>>>>>>>>>>              ] 58/103, 3.0 task/s, elapsed: 19s, ETA:    15s[>>>>>>>>>>>>>>>>>              ] 59/103, 3.0 task/s, elapsed: 20s, ETA:    15s[>>>>>>>>>>>>>>>>>>             ] 60/103, 3.0 task/s, elapsed: 20s, ETA:    14s[>>>>>>>>>>>>>>>>>>             ] 61/103, 3.0 task/s, elapsed: 20s, ETA:    14s[>>>>>>>>>>>>>>>>>>             ] 62/103, 3.0 task/s, elapsed: 21s, ETA:    14s[>>>>>>>>>>>>>>>>>>             ] 63/103, 3.0 task/s, elapsed: 21s, ETA:    13s[>>>>>>>>>>>>>>>>>>>            ] 64/103, 3.0 task/s, elapsed: 21s, ETA:    13s[>>>>>>>>>>>>>>>>>>>            ] 65/103, 3.0 task/s, elapsed: 22s, ETA:    13s[>>>>>>>>>>>>>>>>>>>            ] 66/103, 3.0 task/s, elapsed: 22s, ETA:    12s[>>>>>>>>>>>>>>>>>>>>           ] 67/103, 3.0 task/s, elapsed: 22s, ETA:    12s[>>>>>>>>>>>>>>>>>>>>           ] 68/103, 3.0 task/s, elapsed: 23s, ETA:    12s[>>>>>>>>>>>>>>>>>>>>           ] 69/103, 3.0 task/s, elapsed: 23s, ETA:    11s[>>>>>>>>>>>>>>>>>>>>>          ] 70/103, 3.0 task/s, elapsed: 23s, ETA:    11s[>>>>>>>>>>>>>>>>>>>>>          ] 71/103, 3.0 task/s, elapsed: 24s, ETA:    11s[>>>>>>>>>>>>>>>>>>>>>          ] 72/103, 3.0 task/s, elapsed: 24s, ETA:    10s[>>>>>>>>>>>>>>>>>>>>>          ] 73/103, 3.0 task/s, elapsed: 24s, ETA:    10s[>>>>>>>>>>>>>>>>>>>>>>         ] 74/103, 3.0 task/s, elapsed: 25s, ETA:    10s[>>>>>>>>>>>>>>>>>>>>>>         ] 75/103, 3.0 task/s, elapsed: 25s, ETA:     9s[>>>>>>>>>>>>>>>>>>>>>>         ] 76/103, 3.0 task/s, elapsed: 25s, ETA:     9s[>>>>>>>>>>>>>>>>>>>>>>>        ] 77/103, 3.0 task/s, elapsed: 26s, ETA:     9s[>>>>>>>>>>>>>>>>>>>>>>>        ] 78/103, 3.0 task/s, elapsed: 26s, ETA:     8s[>>>>>>>>>>>>>>>>>>>>>>>        ] 79/103, 3.0 task/s, elapsed: 26s, ETA:     8s[>>>>>>>>>>>>>>>>>>>>>>>>       ] 80/103, 3.0 task/s, elapsed: 27s, ETA:     8s[>>>>>>>>>>>>>>>>>>>>>>>>       ] 81/103, 3.0 task/s, elapsed: 27s, ETA:     7s[>>>>>>>>>>>>>>>>>>>>>>>>       ] 82/103, 3.0 task/s, elapsed: 27s, ETA:     7s[>>>>>>>>>>>>>>>>>>>>>>>>       ] 83/103, 3.0 task/s, elapsed: 28s, ETA:     7s[>>>>>>>>>>>>>>>>>>>>>>>>>      ] 84/103, 3.0 task/s, elapsed: 28s, ETA:     6s[>>>>>>>>>>>>>>>>>>>>>>>>>      ] 85/103, 3.0 task/s, elapsed: 28s, ETA:     6s[>>>>>>>>>>>>>>>>>>>>>>>>>      ] 86/103, 3.0 task/s, elapsed: 29s, ETA:     6s[>>>>>>>>>>>>>>>>>>>>>>>>>>     ] 87/103, 3.0 task/s, elapsed: 29s, ETA:     5s[>>>>>>>>>>>>>>>>>>>>>>>>>>     ] 88/103, 3.0 task/s, elapsed: 29s, ETA:     5s[>>>>>>>>>>>>>>>>>>>>>>>>>>     ] 89/103, 3.0 task/s, elapsed: 30s, ETA:     5s[>>>>>>>>>>>>>>>>>>>>>>>>>>>    ] 90/103, 3.0 task/s, elapsed: 30s, ETA:     4s[>>>>>>>>>>>>>>>>>>>>>>>>>>>    ] 91/103, 3.0 task/s, elapsed: 30s, ETA:     4s[>>>>>>>>>>>>>>>>>>>>>>>>>>>    ] 92/103, 3.0 task/s, elapsed: 31s, ETA:     4s[>>>>>>>>>>>>>>>>>>>>>>>>>>>    ] 93/103, 3.0 task/s, elapsed: 31s, ETA:     3s[>>>>>>>>>>>>>>>>>>>>>>>>>>>>   ] 94/103, 3.0 task/s, elapsed: 31s, ETA:     3s[>>>>>>>>>>>>>>>>>>>>>>>>>>>>   ] 95/103, 3.0 task/s, elapsed: 32s, ETA:     3s[>>>>>>>>>>>>>>>>>>>>>>>>>>>>   ] 96/103, 3.0 task/s, elapsed: 32s, ETA:     2s[>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  ] 97/103, 3.0 task/s, elapsed: 32s, ETA:     2s[>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  ] 98/103, 3.0 task/s, elapsed: 33s, ETA:     2s[>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  ] 99/103, 3.0 task/s, elapsed: 33s, ETA:     1s[>>>>>>>>>>>>>>>>>>>>>>>>>>>>> ] 100/103, 3.0 task/s, elapsed: 33s, ETA:     1s[>>>>>>>>>>>>>>>>>>>>>>>>>>>>> ] 101/103, 3.0 task/s, elapsed: 34s, ETA:     1s[>>>>>>>>>>>>>>>>>>>>>>>>>>>>> ] 102/103, 3.0 task/s, elapsed: 34s, ETA:     0s[>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>] 103/103, 3.0 task/s, elapsed: 34s, ETA:     0s/mnt/home1/workspace2/QueryInst/mmdet/datasets/anatomy.py:571: UserWarning: The key "bbox" is deleted for more accurate mask AP of small/medium/large instances since v2.12.0. This does not change the overall mAP calculation.
+  warnings.warn(
+/mnt/home1/programs/miniconda3/envs/usd/lib/python3.8/site-packages/pycocotools/cocoeval.py:378: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  tp_sum = np.cumsum(tps, axis=1).astype(dtype=np.float)
+
+Evaluating bbox...
+Loading and preparing results...
+DONE (t=0.03s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.90s).
+Accumulating evaluation results...
+DONE (t=0.33s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.574
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=1000 ] = 0.897
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=1000 ] = 0.652
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.621
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.772
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=300 ] = 0.775
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=1000 ] = 0.775
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.775
+
+Evaluating segm...
+Loading and preparing results...
+DONE (t=0.39s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *segm*
+DONE (t=1.29s).
+Accumulating evaluation results...
+DONE (t=0.33s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.595
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=1000 ] = 0.911
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=1000 ] = 0.679
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.659
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.742
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=300 ] = 0.743
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=1000 ] = 0.743
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.743
+
+Evaluating glob...
+OrderedDict([('bbox_mAP', 0.574), ('bbox_mAP_50', 0.897), ('bbox_mAP_75', 0.652), ('bbox_mAP_s', -1.0), ('bbox_mAP_m', -1.0), ('bbox_mAP_l', 0.621), ('bbox_mAP_copypaste', '0.574 0.897 0.652 -1.000 -1.000 0.621'), ('segm_mAP', 0.595), ('segm_mAP_50', 0.911), ('segm_mAP_75', 0.679), ('segm_mAP_s', -1.0), ('segm_mAP_m', -1.0), ('segm_mAP_l', 0.659), ('segm_mAP_copypaste', '0.595 0.911 0.679 -1.000 -1.000 0.659'), ('glob_tn', '49'), ('glob_fp', '2'), ('glob_fn', '0'), ('glob_tp', '52'), ('glob_confusion_matrix_copypaste', '49 2 0 52')])

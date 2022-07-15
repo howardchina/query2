@@ -1,0 +1,1 @@
+./tools/dist_test.sh configs/stanford_car/sparse_rcnn_r50_fpn_3x_stanford_cars.py work_dirs/sparse_rcnn_r50_fpn_3x_stanford_cars/latest.pth 4 --eval bbox 2>&1 | tee work_dirs/sparse_rcnn_r50_fpn_3x_stanford_cars/test_log_sparse_rcnn_r50_fpn_3x_stanford_cars_max_per_img_1.txt

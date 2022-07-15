@@ -1,0 +1,5 @@
+ CUDA_VISIBLE_DEVICES=0 python ./tools/train.py configs/ultra_sound/queryinst/resnet101/gist514_split0_queryinst_r101_fpn_300_proposals_crop_mstrain_480-800_3x_coco.py --seed 666  &
+ CUDA_VISIBLE_DEVICES=1 python ./tools/train.py configs/ultra_sound/queryinst/resnet101/gist514_split1_queryinst_r101_fpn_300_proposals_crop_mstrain_480-800_3x_coco.py --seed 666  &
+ CUDA_VISIBLE_DEVICES=2 python ./tools/train.py configs/ultra_sound/queryinst/resnet101/gist514_split2_queryinst_r101_fpn_300_proposals_crop_mstrain_480-800_3x_coco.py --seed 666  &
+ CUDA_VISIBLE_DEVICES=3 python ./tools/train.py configs/ultra_sound/queryinst/resnet101/gist514_split3_queryinst_r101_fpn_300_proposals_crop_mstrain_480-800_3x_coco.py --seed 666  
+ CUDA_VISIBLE_DEVICES=3 python ./tools/train.py configs/ultra_sound/queryinst/resnet101/gist514_split4_queryinst_r101_fpn_300_proposals_crop_mstrain_480-800_3x_coco.py --seed 666  &
