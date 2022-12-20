@@ -1,5 +1,7 @@
 # Query2: Query over Queries for Improving Gastrointestinal Stromal Tumour Detection in Endoscopic Ultrasound 
 
+
+
 ![image](./fig4.jpg)
 
 
@@ -7,8 +9,12 @@
 More code will be released soon. I'm happy to provide full dataset and answer any [Issues](https://github.com/howardchina/query2/issues) about this work. Please let me know if you need any help.
 
 
-download: [GIST514-DB](https://drive.google.com/drive/folders/1TG9Bq-OaKkMXV2s42f_oZJdoTOfIAZLi?usp=sharing)
+### data
+[GIST514-DB](https://drive.google.com/drive/folders/1TG9Bq-OaKkMXV2s42f_oZJdoTOfIAZLi?usp=sharing)
 
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">the data is shared under CC-by-NC-SA 4.0 license</a>
+
+### evaluation
 Detail evaluation on each splits refers to 'work_dirs/queryglob_usdanno514roi_B_2_7_split\<n\>/test_log_queryglob_usdanno514roi_B_2_7_split\<n\>_sor.txt'
 
 |      | Split_0 |      | Split_1 |      | Split_2 |      | Split_3 |      | Split_4 |      |  Total |
