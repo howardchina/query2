@@ -24,7 +24,13 @@ Detail evaluation on each splits refers to 'work_dirs/queryglob_usdanno514roi_B_
 training and test log: 'work_dirs'
 
 
+### Cite
+Please cite the following paper if you want to use our data and code for research.
 
-ps:
+1. He Q, Bano S, Liu J, Liu W, Stoyanov D, Zuo S. Query2: Query over queries for improving gastrointestinal stromal tumour detection in an endoscopic ultrasound. Computers in Biology and Medicine. 2023;152:106424. 
+
+
+### ps
 - In file 'mmdet/datasets/anatomy.py', '_eval_global()' denotes the inference with SOR, while '_eval_vanilla' denotes inference without SOR.
 - Code files for query^2 is located at 'mmdet/models/detectors/queryglob.py'. (and don't be confused if you see 'mmdet/models/detectors/query2.py', this is the other model we have tried but not publised)
+
