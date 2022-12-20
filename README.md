@@ -25,9 +25,17 @@ training and test log: 'work_dirs'
 
 
 ### Cite
-Please cite the following paper if you want to use our data and code for research.
+```
+@article{he2022query2,
+  title={Query2: Query over queries for improving gastrointestinal stromal tumour detection in an endoscopic ultrasound},
+  author={He, Qi and Bano, Sophia and Liu, Jing and Liu, Wentian and Stoyanov, Danail and Zuo, Siyang},
+  journal={Computers in Biology and Medicine},
+  pages={106424},
+  year={2022},
+  publisher={Elsevier}
+}
+```
 
-1. He Q, Bano S, Liu J, Liu W, Stoyanov D, Zuo S. Query2: Query over queries for improving gastrointestinal stromal tumour detection in an endoscopic ultrasound. Computers in Biology and Medicine. 2023;152:106424. 
 
 
 ### ps
