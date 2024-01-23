@@ -34,7 +34,6 @@ from .yolof import YOLOF
 from .queryinst import QueryInst
 from .condqueryinst import CondQueryInst
 from .queryglob import QueryGlob
-from .query2 import Query2
 
 __all__ = [
     'ATSS', 'BaseDetector', 'SingleStageDetector', 'TwoStageDetector', 'RPN',
@@ -44,5 +43,5 @@ __all__ = [
     'NASFCOS', 'PointRend', 'GFL', 'CornerNet', 'PAA', 'YOLOV3', 'YOLACT',
     'VFNet', 'DETR', 'TridentFasterRCNN', 'SparseRCNN', 'SCNet',
     'DeformableDETR', 'AutoAssign', 'YOLOF', 'QueryInst', 'CondQueryInst',
-    'QueryGlob', 'Query2',
+    'QueryGlob', 
 ]
